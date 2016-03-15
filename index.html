@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="js/blockly.js"></script>
+    <script src="js/en.js"></script>
+    <script src="js/blocks.js"></script>
+    <script src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body onload="init()">
+    <xml id="toolbox" style="display: none">
+        <category name="Predicates">
+            <block type="true"></block>
+            <block type="false"></block>
+            <block type="constant"></block>
+            <block type="variable"></block>
+            <block type="regexp"></block>
+            <block type="predicate"></block>
+        </category>
+
+        <category name="Boolean operators">
+            <block type="and"></block>
+            <block type="or"></block>
+            <block type="not"></block>
+            <block type="imply"></block>
+        </category>
+
+        <category name="Temporal operators">
+            <block type="always"></block>
+            <block type="future"></block>
+            <block type="next"></block>
+            <block type="until"></block>
+            <block type="release"></block>
+        </category>
+
+        <category name="Quantifiers">
+            <block type="forall"></block>
+            <block type="exists"></block>
+        </category>
+
+        <category name="Distributed operators">
+            <block type="at"></block>
+        </category>
+    </xml>
+  </body>
+</html>
